@@ -1,0 +1,68 @@
+#tit{
+    background-image: url("spss.jpg");
+    background-color: rgb(248, 202, 202);
+    font-size: 50px;
+    height: 240px;
+    width: 550px;
+    color:rgb(42, 74, 252);
+    margin-left: 480px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+
+#kkk{
+    background-image: url("bk.jpeg");
+    background-size: cover;
+ 
+}
+#gm{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-image: url("download.jpg");
+    background-position: left;
+    background-position: center;
+    background-size: cover;
+    font-size: 25px;
+    height: 390px;
+    text-align: center;
+    color:rgb(163, 24, 24);
+    font-weight: bolder;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+}
+#compt{
+    color:rgb(255, 0, 140);
+    font-size: 40px;
+    text-shadow: 4px 4px 0px rgb(252, 183, 215);
+}
+#rst{
+    color:rgb(255, 0, 140);
+    font-size: 40px;
+    text-shadow: 4px 4px 0px rgb(252, 183, 215);
+}
+#cr{
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white ;
+    height:30px;
+    font-size: 20px;
+    text-align: center;
+}
+#crr{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: green ;
+    font-size: 20px;
+    height:30px;
+    text-align: center;
+}
+#crrr{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(233, 71, 21) ;
+    font-size: 20px;
+    color: white;
+    height:30px;
+    text-align: center;
+}

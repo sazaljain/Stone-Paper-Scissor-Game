@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head >
+    
+        <title >Stone Paper Scissor Game</title>
+        <link rel="stylesheet" href="sps.css">
+    </head>
+    <body id="kkk">
+        <h1 id="tit" align="center">GAME </h1>
+        
+        <div id="gm">
+            <p> Hello Friends!!! </p>
+            <p>Lets Play Stone Paper and Scissor</p>
+            <p>Enter your Choice.Type st for Stone, p for Paper and sc for Scissor</p>
+            <input id="uc" type="text" name="x" placeholder="Your Choice" oninput="m1(this.value)" onchange="m1(this.value)" >
+            <button onclick="setTimeout(m1(a),1000);">PLAY</button>
+        <br>
+        <p id="compt">Computer: <span id="kk"></span></p>
+        <p id="rst">Result: <span id="cpt"></span></p>
+        <script>
+            function m1(a){
+                var i=Math.random();
+                var b;
+                {
+                if(i<0.33){
+                b="st";
+                }
+                else if(i>0.66){
+                b="sc";
+                }
+                else{
+                b="p";
+                }
+               
+            }
+            
+             if(a==b){
+             document.getElementById("cpt").innerHTML="Match Drawn";
+             }
+             if(a=="st" && b=="p"){
+             document.getElementById("cpt").innerHTML="You Lose";
+             }
+             else if(a=="st" && b=="sc"){
+             document.getElementById("cpt").innerHTML="You Won";
+             }
+             else if(a=="p" && b=="st"){
+             document.getElementById("cpt").innerHTML="You Won";
+             }
+             else if(a=="sc" && b=="st"){
+             document.getElementById("cpt").innerHTML="You Lose";
+             }
+             else if(a=="p" && b=="sc"){
+             document.getElementById("cpt").innerHTML="You Lose";
+             }
+             else if(a=="sc" && b=="p"){
+             document.getElementById("cpt").innerHTML="You Won";
+             }
+            //  else{
+            //  document.getElementById("cpt").innerHTML="Wrong Entry";
+            //  }
+            
+             document.getElementById("kk").innerHTML=b;  
+            //  delete a;
+            //  delete b;
+             
+            }
+        </script>
+        </div>
+        <div>
+        <footer>
+            <p id=crrr>Made with love in India</p>
+            <p id="cr"> Copyright 2021 @ Sazal Jain. All rights reserved.</p>
+            <p id="crr">Designed by Sazal Jain</p>
+        </footer>
+        </div>
+    </body>
+</htm>
